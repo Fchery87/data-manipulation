@@ -56,6 +56,7 @@ const dontDoThis =
 
 // PROBLEM 1: MATH PROBLEMS
 
+// OPTION #1
 // Check if all numbers are divisible by 5
 const isDivisibleBy5 = n1 % 5 === 0 && n2 % 5 === 0 && n3 % 5 === 0 && n4 % 5 === 0;
 console.log(`Are all numbers divisible by 5? ${isDivisibleBy5}`);
@@ -72,6 +73,35 @@ console.log(`Result of the arithmetic chain: ${result}`);
 // Now it checks if any number is over 25 and caches the result
 const isAnyOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
 console.log(`Is any number over 25? ${isAnyOver25}`);
+
+// OPTION #2
+
+// Variables
+// let totalDistance = 1500; // Total distance of the trip in miles
+// let fuelBudget = 175; // Total fuel budget in dollars
+// let fuelCostPerGallon = 3; // Cost of fuel per gallon in dollars
+
+// // Object representing fuel efficiency at different speeds
+// const fuelEfficiencies = {
+//   55: 30, // Miles per gallon at 55 mph
+//   60: 28, // Miles per gallon at 60 mph
+//   75: 23 // Miles per gallon at 75 mph
+// };
+
+// // Compare results for different speeds
+// for (let speed in fuelEfficiencies) {
+//   let milesPerGallon = fuelEfficiencies[speed];
+//   let totalFuel = totalDistance / milesPerGallon;
+//   let fuelExpense = totalFuel * fuelCostPerGallon;
+//   let enoughBudget = fuelExpense <= fuelBudget;
+//   let totalTime = totalDistance / speed;
+  
+//   console.log("At " + speed + " mph:");
+//   console.log("Total fuel needed: " + totalFuel.toFixed(2) + " gallons");
+//   console.log("Will the budget be enough? " + (enoughBudget ? 'Yes' : 'No'));
+//   console.log("Total trip time: " + totalTime.toFixed(2) + " hours");
+//   console.log("---------------------------------------------");
+// }
 
 
 
